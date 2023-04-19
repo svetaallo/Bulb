@@ -1,0 +1,14 @@
+<Application
+    x:Class="Bulb.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bulb">
+    <Application.DataTemplates>
+        <local:ViewLocator />
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme />
+        <!--<StyleInclude Source="avares://Citrus.Avalonia/Candy.xaml" />-->
+    </Application.Styles>
+</Application>
